@@ -16,12 +16,13 @@ h1{
   margin:0 auto;
   letter-spacing:3px;
 }
+
 .container{
   margin:0 auto;
   display:flex;
   padding:10px;
   flex-direction:column;
-  
+
   max-width:800px;
   min-width:250px;
   max-height:600px;
@@ -29,7 +30,7 @@ h1{
   justify-content:;
 /*   background:red; */
   box-shadow:-4px 4px 35px 2px green;
-  
+
 }
 .head{
   display:flex;
@@ -39,14 +40,14 @@ h1{
   color:black;
   padding-bottom:10px;
 /*   background:rgba(255,255,255,0.6); */
-  
+
 }
 .game-screen{
   height:450px;
 background-image:url(https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=1c468f105f7f9128c6a93b6262cbc1b6);
   background-size:cover;
   background-repeat:no-repeat;
-  background-position:center; 
+  background-position:center;
 /*   filter:grayscale(20%); */
 /* background-attachment:fixed; */
 }
@@ -97,4 +98,14 @@ button:active{
   font-size:30px;
   z-index:2;
   display:none;
+}
+@media screen and (max-width: 550px){
+  h1{
+    font-size: 20px;
+  }
+  .head{
+    height:15px;
+    padding-bottom:8px;
+    font-size: 0.5em;
+  }
 }

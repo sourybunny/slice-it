@@ -1,14 +1,14 @@
 var isPlaying=false;
 
-var fruits=["http://www.pngmart.com/files/1/Banana-Fruit-PNG.png",
-"https://pre00.deviantart.net/6c5b/th/pre/i/2012/041/9/3/pear_vector_by_silver_wolf_studios-d4paumq.png",
-"http://www.freepngimg.com/download/fruit/5-2-fruit-free-png-image.png",
-"http://www.pngpix.com/wp-content/uploads/2016/03/Watermelon-PNG-Image.png",
-"https://vignette.wikia.nocookie.net/epicrapbattlesofhistory/images/5/57/Pineapple-2.png/revision/latest?cb=20160703145656",
-"http://www.freepngimg.com/thumb/strawberry/1-strawberry-png-images-thumb.png",
-"http://www.pngpix.com/wp-content/uploads/2016/02/Lemon-PNG-image.png",
-"http://pngimagesfree.com/Fruit/Mix-fruit-png/fruit-basket_png_one.png",
-"http://pngimagesfree.com/Fruit/Grapes-png/Thumb/jind_grapes_png.png"];
+const fruits=["./images/banana.png",
+"./images/pear.png",
+"./images/grapes.png",
+"./images/orange.png",
+"./images/pineapple.png",
+"./images/melon.png",
+"./images/lemon.png",
+"./images/strawberry.png",
+"./images/basket.png"];
 var score;
 var lives=3;
 var fallcount;
